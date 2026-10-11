@@ -1,0 +1,17 @@
+# FLASH AI — Python Dependencies
+# Requires Python 3.11+ on macOS (Apple Silicon recommended for MLX acceleration)
+
+# Speech recognition & audio
+mlx-whisper>=0.4.0
+sounddevice>=0.5.0
+numpy>=1.26.0
+
+# Intent classification
+laya>=0.4.0
+
+# Cloud conversational fallback & multi-step planning (Amazon Bedrock)
+boto3>=1.34.0
+botocore>=1.34.0
+
+# Testing
+pytest>=8.0.0
